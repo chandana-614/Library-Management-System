@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Student Dashboard</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-primary">
+
+<div class="container-fluid">
+
+<span class="navbar-brand fs-4">
+
+👨‍🎓 Student Dashboard
+
+</span>
+
+<a href="/logout"
+
+class="btn btn-danger"
+
+onclick="return logoutConfirm()">
+
+Logout
+
+</a>
+
+</div>
+
+</nav>
+
+<div class="container mt-5">
+
+<h2 class="mb-4">
+
+Welcome Student
+
+</h2>
+
+<div class="row">
+
+<div class="col-md-6">
+
+<div class="card shadow text-center p-4">
+
+<h3>📚</h3>
+
+<h4>View Books</h4>
+
+<a href="/books"
+
+class="btn btn-primary mt-3">
+
+Books
+
+</a>
+
+</div>
+
+</div>
+
+<div class="col-md-6">
+
+<div class="card shadow text-center p-4">
+
+<h3>💰</h3>
+
+<h4>View Fines</h4>
+
+<a href="/fines"
+
+class="btn btn-danger mt-3">
+
+Fine Details
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,236 @@
+/* ===========================
+   GENERAL
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+/* ===========================
+   LOGIN PAGE
+=========================== */
+
+.login-page{
+    background:linear-gradient(135deg,#4e73df,#1cc88a);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-card{
+    width:500px;
+    background:#fff;
+    padding:40px;
+    border-radius:18px;
+    box-shadow:0 12px 30px rgba(0,0,0,.20);
+}
+
+.login-icon{
+    font-size:55px;
+    color:#0d6efd;
+}
+
+.form-control,
+.form-select{
+    height:48px;
+}
+
+.btn-primary{
+    width:100%;
+    border-radius:8px;
+    font-size:17px;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    background:#1f2937;
+    padding:12px 20px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    color:#fff !important;
+    font-weight:bold;
+}
+
+.btn-outline-light{
+    border-radius:8px;
+}
+
+/* ===========================
+   SUMMARY CARDS
+=========================== */
+
+.summary-card{
+    border:none;
+    border-radius:14px;
+    text-align:center;
+    padding:22px;
+    background:#fff;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.summary-card h5{
+    font-size:18px;
+    color:#555;
+    margin-bottom:15px;
+}
+
+.summary-card h2{
+    font-size:42px;
+    font-weight:700;
+    color:#000;       /* Numbers in Black */
+}
+
+/* ===========================
+   REPORT CARDS
+=========================== */
+
+.report-card{
+    border:none;
+    border-radius:12px;
+    overflow:hidden;
+    margin-bottom:22px;
+    background:#fff;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+/* ===========================
+   SECTION HEADERS
+=========================== */
+
+.books-header,
+.issue-header,
+.return-header,
+.fine-header{
+
+    background:#2f49b1;   /* Same Blue for all */
+
+    color:#fff;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    padding:12px 20px;
+
+}
+
+/* ===========================
+   TABLES
+=========================== */
+
+.table{
+
+    margin-bottom:0;
+
+    font-size:15px;
+
+}
+
+.table thead th{
+
+    background:#eef4fb;      /* Light Blue */
+
+    color:#222;
+
+    font-weight:600;
+
+    padding:12px;
+
+}
+
+.table td{
+
+    padding:12px;
+
+    vertical-align:middle;
+
+}
+
+.table-hover tbody tr:hover{
+
+    background:#f7fbff;
+
+}
+
+/* ===========================
+   BADGES
+=========================== */
+
+.badge{
+
+    padding:6px 12px;
+
+    font-size:13px;
+
+    border-radius:20px;
+
+}
+
+/* ===========================
+   REPORT TITLE
+=========================== */
+
+.text-primary{
+
+    color:#2f49b1 !important;
+
+}
+
+.text-muted{
+
+    color:#666 !important;
+
+}
+
+/* ===========================
+   COLORS
+=========================== */
+
+.blue{
+
+    color:#000;
+
+}
+
+.green{
+
+    color:#000;
+
+}
+
+.orange{
+
+    color:#000;
+
+}
+
+.red{
+
+    color:#000;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    color:#777;
+
+    font-size:14px;
+
+}
