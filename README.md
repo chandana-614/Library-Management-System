@@ -124,7 +124,7 @@ Books • Issued • Returned • Fine Reports
 - Cloud Database Integration
 - Advanced Book Search
 
-## Authors
+## Author
 
 **G O Chandana**
 
