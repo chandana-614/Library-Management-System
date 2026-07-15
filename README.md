@@ -128,6 +128,6 @@ Books • Issued • Returned • Fine Reports
 
 **G O Chandana**
 
-Department of Information Science and Engineering
+Department of Computer Science and Engineering
 
 SJB Institute of Technology, Bengaluru
