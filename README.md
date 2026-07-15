@@ -1,50 +1,56 @@
-Library Management System
+# Library Management System
 
-A web-based Library Management System developed using **Python, Flask, SQLite, HTML, CSS, Bootstrap, and JavaScript**. The application simplifies library operations by enabling book management, issue and return processing, fine calculation, and report generation through a centralized role-based system.
+A web-based **Library Management System** developed using **Python, Flask, SQLite, HTML, CSS, Bootstrap, and JavaScript**. The application simplifies library operations by enabling book management, issue and return processing, fine calculation, and report generation through a centralized role-based system.
 
-Project Overview
+## Project Overview
 
-The Library Management System is designed to automate the daily activities of a library. It provides separate dashboards for librarians, students, and faculty members, allowing efficient management of books, circulation, fines, and reports. The system reduces manual work and ensures accurate record keeping through an easy-to-use web interface.
+The Library Management System is designed to automate the daily activities of a library. It provides separate dashboards for **Librarians**, **Students**, and **Faculty members**, enabling efficient book management, issue and return processing, fine calculation, and report generation. The system reduces manual work while maintaining accurate library records.
 
-Features
+## Features
 
-User Authentication
+### User Authentication
+
 - Secure login system
 - Role-based access
 - Separate dashboards for Librarian, Student, and Faculty
 
-Book Management
+### Book Management
+
 - Add new books
 - View available books
 - Delete books
-- Manage book details such as title, author, ISBN, category, and quantity
+- Manage book details (Title, Author, ISBN, Category, Quantity)
 
-Book Issue
+### Book Issue
+
 - Issue books to students and faculty
 - Automatic issue date generation
 - Automatic due date calculation
 - Track issued books
 
-Book Return
+### Book Return
+
 - Return issued books
 - Automatic return date update
+- Automatic fine calculation
 - Automatic status update
-- Fine calculation for overdue books
 
-Fine Management
-- Automatic overdue fine calculation
+### Fine Management
+
+- Calculate overdue fines
 - View pending fines
 - Mark fines as paid
-- Fine report generation
+- Generate fine reports
 
-Reports
+### Reports
+
 - Total Books Report
 - Issued Books Report
 - Returned Books Report
 - Fine Collection Report
-- Summary dashboard with statistics
+- Dashboard Summary
 
-Technology Stack
+## Technology Stack
 
 - Python
 - Flask
@@ -54,59 +60,59 @@ Technology Stack
 - Bootstrap 5
 - JavaScript
 
-User Roles
+## User Roles
 
-Librarian
+### Librarian
+
 - Manage books
 - Issue books
 - Return books
 - Calculate fines
 - View reports
-- Manage library records
+- Maintain library records
 
-Student
+### Student
+
 - Login to the system
 - View available books
-- Check issued books
-- View fine status
+- View issued books
+- Check fine status
 
-Faculty
+### Faculty
+
 - Login to the system
 - View available books
-- Check issued books
-- View fine details
+- View issued books
+- Check fine details
 
-Project Workflow
+## Project Workflow
 
-User Login
-      │
-      ▼
-Role Authentication
-      │
-      ▼
-Librarian Dashboard
-      │
-      ├────────► Book Management
-      │               │
-      │               ▼
-      │          Add / Delete Books
-      │
-      ├────────► Issue Books
-      │               │
-      │               ▼
-      │        Update Issue Records
-      │
-      ├────────► Return Books
-      │               │
-      │               ▼
-      │      Fine Calculation & Status Update
-      │
-      └────────► Reports Dashboard
-                      │
-                      ▼
-      Books • Issued • Returned • Fine Reports
+```text
+           User Login
+                │
+                ▼
+      Role Authentication
+                │
+                ▼
+      Librarian Dashboard
+                │
+      ┌─────────┼──────────┐
+      ▼         ▼          ▼
+ Book      Issue Books   Return Books
+Management      │             │
+      │         ▼             ▼
+ Add/Delete  Update Issue   Fine
+   Books       Records   Calculation
+      │                       │
+      └───────────┬───────────┘
+                  ▼
+          Reports Dashboard
+                  │
+                  ▼
+Books • Issued • Returned • Fine Reports
+```
 
- Future Enhancements
+## Future Enhancements
 
 - Barcode & QR Code Integration
 - Book Reservation System
@@ -116,12 +122,11 @@ Librarian Dashboard
 - Password Encryption
 - Online Fine Payment
 - Cloud Database Integration
-- Book Search & Filter
-- User Profile Management
+- Advanced Book Search
 
-Authors
+## Authors
 
-G O Chandana
+**G O Chandana**
 
 Department of Information Science and Engineering
 
